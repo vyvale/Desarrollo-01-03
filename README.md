@@ -2,7 +2,7 @@
 
 En este repositorio encontrara los archivos para:
 
-* Ver el poligono dl barrio
+* Ver el poligono del barrio
 * Ver la ubicaion de los arboles del barrio
 * Calcular las distancias entre los arboles
 * Descargar las distancias en un archivo PDF
