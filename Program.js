@@ -6,3 +6,21 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+async function polygon() {
+    try{
+        let respuesta = await fetch("madelena.geojson");
+        let data = await respuesta.json();
+
+        L.geoJSON(data,
+            {
+               style: {color: "blue"}
+            }
+        ).addTo(map);
+    }
+    catch(error){
+       console.error("No se pudo cargar el poligono")   
+    }
+
+}
+
+polygon();

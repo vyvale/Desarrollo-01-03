@@ -1,4 +1,19 @@
 #map {
-    height: 500px; /* O el tamaño que desees */
+    height: 500px; 
     width: 100%;
+}
+
+.binDIV{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    z-index: 1000;
+}
+
+.button{
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    color: cadetblue;
+    background-color: burlywood;
 }
